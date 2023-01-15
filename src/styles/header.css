@@ -1,0 +1,50 @@
+header{
+	background-color:#202020;
+	display:flex;
+	align-items: center;
+	color:white;
+	padding: 0 10%;
+	gap: 50px;
+}
+
+#application-title{
+	margin-right:auto;
+}
+
+.header-links{
+	display:flex;
+	gap: 32px;
+}
+
+.header-links > a {
+	color:white;
+	font-size: 2rem;
+	text-decoration: none;
+}
+
+.header-links > a:hover{
+	transform:scale(1.1);
+}
+
+.header-links > a.active{
+	font-weight: bold;
+}
+
+#cart-button{
+	cursor:pointer;
+}
+
+#cart{
+	position:relative;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#cart > img{
+	position:absolute
+}
+
+#cart > p{
+margin-top: 25px;
+}
