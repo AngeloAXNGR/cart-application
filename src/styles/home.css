@@ -1,0 +1,48 @@
+.homepage{
+  display:flex;
+  /* align-items: center; */
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 100px;
+}
+
+
+
+.hero-desc{
+  width:400px;
+}
+
+.hero-desc > h1{
+margin-top:0;
+font-size: 4rem;
+}
+
+.hero-desc > p{
+  font-size: 2rem;
+  font-weight: bold;
+  color:gray;
+}
+
+.hero-desc > a{
+  padding: 20px 70px;
+  font-size: 2rem;
+  border-radius:40px;
+  background-color:white;
+  font-weight:bold;
+  border:2px solid black;
+  color:black;
+  transition: background-color 100ms ease-in, color 100ms ease-in;
+  cursor:pointer;
+  text-decoration: none;
+}
+
+.hero-desc > a:hover{
+  background-color:black;
+  color:white
+}
+
+.hero-image > img{
+  width:600px;
+  border-radius:20px;
+}
