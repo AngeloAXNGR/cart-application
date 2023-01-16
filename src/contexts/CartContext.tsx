@@ -25,7 +25,7 @@ type CartContextProviderProps = {
 export const CartContext = React.createContext({} as CartContextType);
 
 export const CartContextProvider = ({children}: CartContextProviderProps) => {
-	const [cart, setCart] = React.useState<CartType[]>(() => {return JSON.parse(localStorage.getItem('cart') || "") || []});
+	const [cart, setCart] = React.useState<CartType[]>([]);
 	const [showCart, setShowCart] = React.useState(false);
 
 	React.useEffect(() => {
